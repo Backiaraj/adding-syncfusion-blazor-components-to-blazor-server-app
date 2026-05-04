@@ -23,8 +23,8 @@ dotnet restore
 dotnet build
 ```
 
-## References:
+## References
 
-**Documentation**: https://blazor.syncfusion.com/documentation/getting-started/blazor-server-side-visual-studio
+**UG Documentation**: https://blazor.syncfusion.com/documentation/getting-started/blazor-server-side-visual-studio
 
 **Online examples**: https://blazor.syncfusion.com/demos/
