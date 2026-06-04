@@ -1,26 +1,55 @@
-# How to Create a Blazor Server App and Add Syncfusion Blazor components to it?
+# Adding Blazor Components to a Blazor Server App
 
-This example explains about how to create a Blazor Server App project that is pre-configured to use the [Blazor Components](https://www.syncfusion.com/blazor-components/) of Syncfusion.
+A comprehensive example demonstrating how to create and configure a Blazor Server application with [Blazor components](https://www.syncfusion.com/blazor-components) pre-configured and ready to use.
+
+## Overview
+
+This project demonstrates best practices for integrating Blazor components into a Blazor Server application. It includes pre-configured styling, component examples, and a clean project structure to help you get started quickly.
+
+The application features:
+
+- A Grid component displaying sample employee data
+- A Calendar component for date selection
+- Multiple sample pages (Home, Counter, Weather)
+- Bootstrap-based responsive layout
+- Fluent 2 theme applied
+
+## Features
+
+- Pre-configured Blazor components
+- Interactive server-side rendering with Blazor
+- Grid and Calendar components with sample data
 
 ## Prerequisites
 
+* [.NET SDK 10.0](https://dotnet.microsoft.com/en-us/download/dotnet/10.0) or later
 * [Visual Studio 2022](https://visualstudio.microsoft.com/vs/) or later
 * [Visual Studio Code](https://code.visualstudio.com/)
-* .NET SDK 8.0 or later
 
-## How to run the project
+## Getting Started
 
-1. Clone or download this repository to a location in your system.
-2. Open the solution file using the Visual Studio or Visual Studio code.
-3. Restore the NuGet packages by rebuilding the solution or run `dotnet restore`.
-4. Build the project to ensure there are no compilation errors.
-5. Run the project.
+### Clone the repository
 
-Optional CLI Commands:
+```bash
+git clone https://github.com/SyncfusionExamples/adding-syncfusion-blazor-components-to-blazor-server-app.git
+cd adding-syncfusion-blazor-components-to-blazor-server-app
+```
 
-```powershell
+### Run with Visual Studio
+
+1. Open the solution file using Visual Studio 2022 or later.
+2. Restore the NuGet packages by rebuilding the solution.
+3. Build the project to ensure there are no compilation errors.
+4. Run the project.
+
+### Run with .NET CLI
+
+```bash
+# Restore dependencies
 dotnet restore
-dotnet build
+
+# Run the project
+dotnet run
 ```
 
 ## References
